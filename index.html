@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html" target="_blank">MyPortfolio</a></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="Shashank_resume(own2).pdf" target="_blank">Resume</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero" class="hero-section">
+      <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Shashank R</h1>
+      <h2 class="h2edit">Web Developer / Student / Python Full Stack Developer</h2>
+    </section>
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>Enthusiastic MCA student with a solid foundation in  Python, and web
+        development. Driven by curiosity and a passion for building meaningful software
+        solutions. Looking to join a dynamic team where I can grow, contribute to real
+       world projects, and keep learning in a fast-paced environment</p>
+    </section>
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <div class="skill-name">Web Development</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">Python Full Stack</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">DBMS</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">React</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">Git</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">AI/ML</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="proj1pic.jpg" alt=" Amazon Clone Web">
+          <h3> Amazon Clone Web</h3>
+          <p>Replicated the core functionality and design of Amazon.com through a custom-built web
+            application, featuring user authentication, login verification, and dynamic shopping sections.</p>
+          <div class="links">
+            <a href="https://github.com/Shashank14d/Amazonclone.git" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="prj2.avif" alt="Project 2">
+          <h3>Blood Bank And Donor Management System</h3>
+          <p>Developed a blood donation management system enabling admins to view and update blood
+            group availability by location, and allow users to book donation slots at nearby hospitals.</p>
+          <div class="links">
+            <a href="https://github.com/Shashank14d/divsprj.git" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
+        </div>
+        <!-- <div class="project-card">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Project Three</h3>
+          <p>Short description of the project goes here.</p>
+          <div class="links">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <form id="contact-form" action="https://formspree.io/f/mnnvwrza" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&to=shashankdiv142@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/shashankdiv" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Shashank14d" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="Shashank_resume(own2).pdf" download aria-label="Resume" target="_blank"><i class="fas fa-file-alt"></i></a>
+      </div>
+    </section>
+  </main>
+  <button id="scrollToTop" title="Scroll to top">↑</button>
+  <script src="script.js"></script>
+  <div id="message-overlay" class="message-overlay">
+    <div class="message-overlay-content">
+      <span class="overlay-icon">✔️</span>
+      <div class="overlay-text">Thank you! Your message has been sent.</div>
+      <button id="close-overlay" class="overlay-close-btn">Close</button>
+    </div>
+  </div>
+</body>
+</html> 
