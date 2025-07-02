@@ -467,7 +467,7 @@ section h2 {
 }
 
 .contact-section button[type="submit"]:hover {
-  transform: translateY(-2px);
+  transform:scale(1.01);
   box-shadow: 10px -5px 20px 2px rgba(255, 255, 255, 0.1);
 }
 
@@ -478,18 +478,17 @@ section h2 {
   text-align: center;
   width: 100%;
   border-radius: 14px;
-  background: #fff;
+  background:black;
   color: #219150;
   font-weight: 700;
   letter-spacing: 0.5px;
-  box-shadow: 0 2px 12px rgba(67, 170, 139, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.7em;
   opacity: 0;
   animation: fadeInMsg 0.7s forwards;
-  border: 2px solid #219150;
+  border:none;
 }
 .form-message.visible {
   opacity: 1;

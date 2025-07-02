@@ -89,13 +89,14 @@ if (form) {
       if (response.ok) {
         form.reset();
         // Show overlay
+        console.log('Showing overlay');
         if (overlay) {
           overlay.classList.add('active');
         }
-        // Hide overlay after 4 seconds
+        // Hide overlay after 10 seconds
         setTimeout(() => {
           if (overlay) overlay.classList.remove('active');
-        }, 4000);
+        }, 2000);
       } else {
         if (formMsg) {
           formMsg.innerHTML = '<span class="msg-icon">❌</span> Oops! There was a problem sending your message.';
