@@ -611,6 +611,7 @@ section h2 {
     position: fixed;
     top: 70px;
     right: -100vw;
+    color: white;
     background: var(--card-bg);
     flex-direction: column;
     gap: 2rem;
