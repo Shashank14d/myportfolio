@@ -3,8 +3,8 @@
   --secondary: #764ba2;
   --accent: #f093fb;
   --bg: rgba(255,255,255,0.1);
-  --text: #f7fafc;
-  --card-bg: #000409;
+  --text: hsl(204, 45%, 98%);
+  --card-bg: #e6e9ed;
   --gradient:linear-gradient(135deg, #051b72 0%, #030006 100%);
   --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
