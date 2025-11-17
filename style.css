@@ -243,9 +243,10 @@ section h2 {
 .about-section p {
   font-size: 1.2rem;
   line-height: 1.8;
-  text-align: center;
+  text-align:justify;
   max-width: 800px;
   margin: 0 auto;
+
 }
 
 /* Skills */
